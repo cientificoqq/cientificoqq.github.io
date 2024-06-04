@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    background-color: rgb(0, 0, 0);
+   
+}
+
+
+/*шапка сайта*/
+
+
+.header{
+    width: 100%;
+    display: flex;
+   
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/*img*/
+
+
+.header__img img{
+    max-width: 100%;
+    display: flex;
+    border-radius: 50%;
+}
+
+.header__img{
+    max-width: 100px;
+}
+
+
+/*links*/
+
+
+nav{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+
+.nav-links a{
+    font-size: 20px;
+    text-decoration: none;
+    color: grey;
+
+    transition: all 0.6s ease;
+}
+.nav-links a:hover{
+    color: white;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 4em;
+}
+
+
+/*btn*/
+
+
+.btn{
+    padding: 20px;
+    border-radius: 30px;
+    color: white;
+    background-color: gray;
+
+    transition: all 0.6s ease;
+}
+.btn:hover{
+    color: black;
+    background-color: white;
+}
+/*основная часть*/
+.main{
+    max-width: 1200px;
+    margin: auto;
+    padding: 5rem 2rem;
+    display: flex;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    align-items: center;
+    margin-bottom: 300px;
+    
+}
+
+.content h4{
+    font-size: 2em;
+    color:#f0f8ff;
+    line-height: 4em;
+    word-spacing: 2px;
+}
+.content h1{
+    
+    color:#f0f8ff;
+    word-spacing: 2px;
+    font-size: 4em;
+    font-weight: 700;
+}
+.logo{
+    color: black;
+    -webkit-text-stroke: 0.1px #f0f8ff;
+}
+
+.content p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #f0f8ff;
+    word-spacing: 2px;
+}
+
+.btn1{
+    padding: 20px;
+    border-radius: 30px;
+    color: white;
+    background-color: gray;
+
+    transition: all 0.6s ease;
+}
+.btn1:hover{
+    color: black;
+    background-color: white;
+}
+
+.content_img img{
+    border-radius: 40%;
+    opacity: 0.4;
+}
+
+/*masters*/
+
+.masters{
+    width: 70px;
+    display: flex;
+}
+.content__masters{
+    max-width: 1200px;
+    max-height: 100px;
+    margin-bottom: 300px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 0.5fr); 
+    grid-column-gap: 20px;
+	grid-row-gap: 20px
+       
+}
+.ulya{
+    color: #f0f8ff;
+    border: 2px white solid;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+}
+.zenya{
+    color: #f0f8ff;
+    border: 2px white solid;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+}
+.saha{
+    color: #f0f8ff;
+    border: 2px white solid;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+}
+.masters{
+    font-size: 5rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.masters a{
+    text-decoration: none;
+    color: #f0f8ff;
+}
+.masters a:hover{
+    cursor: default;
+}
+.ulya h3{
+    font-size: 60px;
+}
+.zenya h3{
+    font-size: 60px;
+}
+.saha h3{
+    font-size: 60px;
+}
+.ulya p{
+    font-size: 40px;
+}
+.zenya p{
+    font-size: 40px;
+}
+.saha p{
+    font-size: 40px;
+}
+.gallery{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 700px;
+    padding: 50px;
+ 
+}
+.gallery__img{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.gallery h1{
+    color: #f0f8ff;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+}
+.gallery__img img{
+    border: 1px #f0f8ff solid;
+    border-radius: 10px;   
+}
+.about__us{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+.about__us p{
+    color: #f0f8ff;
+    font-size: 21px;
+    padding: 10px;
+    margin: 10px;
+}
+.about__us h1{
+    color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15rem;
+}
